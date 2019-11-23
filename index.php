@@ -6,7 +6,7 @@
 
 ?>
 <?php
-	//Kiểm tra Login
+	//Kiểm tra Login nè
 	if(isset($_POST["btnLogin"])){
 		$username=$_POST['txtUser'];
 		$password=md5($_POST['txtPass']);
